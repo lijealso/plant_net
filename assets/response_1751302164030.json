@@ -1,0 +1,554 @@
+{
+  "query": {
+    "project": "all",
+    "images": [
+      "47877c99f7c4e988f8726fcfe237bdb1"
+    ],
+    "organs": [
+      "flower"
+    ],
+    "includeRelatedImages": true,
+    "noReject": false,
+    "type": "legacy"
+  },
+  "predictedOrgans": [
+    {
+      "image": "47877c99f7c4e988f8726fcfe237bdb1",
+      "filename": "uma-papoila-nascia-nascia.jpg",
+      "organ": "flower",
+      "score": 0.9425
+    }
+  ],
+  "language": "en",
+  "preferedReferential": "the-plant-list",
+  "bestMatch": "Papaver rhoeas L.",
+  "results": [
+    {
+      "score": 0.37886,
+      "species": {
+        "scientificNameWithoutAuthor": "Papaver rhoeas",
+        "scientificNameAuthorship": "L.",
+        "genus": {
+          "scientificNameWithoutAuthor": "Papaver",
+          "scientificNameAuthorship": "",
+          "scientificName": "Papaver"
+        },
+        "family": {
+          "scientificNameWithoutAuthor": "Papaveraceae",
+          "scientificNameAuthorship": "",
+          "scientificName": "Papaveraceae"
+        },
+        "commonNames": [
+          "Common poppy",
+          "Field Poppy",
+          "Shirley poppy"
+        ],
+        "scientificName": "Papaver rhoeas L."
+      },
+      "images": [
+        {
+          "organ": "flower",
+          "author": "marja vanderbaan",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1562443786846,
+            "string": "July 6, 2019"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/60720e052fe0bc0a0303b89f9bc1efe8bab647f3",
+            "m": "https://bs.plantnet.org/image/m/60720e052fe0bc0a0303b89f9bc1efe8bab647f3",
+            "s": "https://bs.plantnet.org/image/s/60720e052fe0bc0a0303b89f9bc1efe8bab647f3"
+          },
+          "citation": "marja vanderbaan / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "parramon marta",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1572481608835,
+            "string": "October 31, 2019"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/68dcd67c092156a737fdb3ef0ec4d9a76bb55918",
+            "m": "https://bs.plantnet.org/image/m/68dcd67c092156a737fdb3ef0ec4d9a76bb55918",
+            "s": "https://bs.plantnet.org/image/s/68dcd67c092156a737fdb3ef0ec4d9a76bb55918"
+          },
+          "citation": "parramon marta / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "José Ricardo Morales Poole",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1559297504977,
+            "string": "May 31, 2019"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/632963e9ff5b930fecb402df4eef666604d8b872",
+            "m": "https://bs.plantnet.org/image/m/632963e9ff5b930fecb402df4eef666604d8b872",
+            "s": "https://bs.plantnet.org/image/s/632963e9ff5b930fecb402df4eef666604d8b872"
+          },
+          "citation": "José Ricardo Morales Poole / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "Tom Targa",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1622871580898,
+            "string": "June 5, 2021"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/6c94beed9d8851940a60d242d6e25e5260350f0e",
+            "m": "https://bs.plantnet.org/image/m/6c94beed9d8851940a60d242d6e25e5260350f0e",
+            "s": "https://bs.plantnet.org/image/s/6c94beed9d8851940a60d242d6e25e5260350f0e"
+          },
+          "citation": "Tom Targa / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "Dupré Pauline",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1591961409919,
+            "string": "June 12, 2020"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/b3927a6beb8802096175ca93703707fe38bd527a",
+            "m": "https://bs.plantnet.org/image/m/b3927a6beb8802096175ca93703707fe38bd527a",
+            "s": "https://bs.plantnet.org/image/s/b3927a6beb8802096175ca93703707fe38bd527a"
+          },
+          "citation": "Dupré Pauline / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "irena irena",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1591869807910,
+            "string": "June 11, 2020"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/6a6cdf3191cb1dc04efd2ab09cd06202fcf9c9c1",
+            "m": "https://bs.plantnet.org/image/m/6a6cdf3191cb1dc04efd2ab09cd06202fcf9c9c1",
+            "s": "https://bs.plantnet.org/image/s/6a6cdf3191cb1dc04efd2ab09cd06202fcf9c9c1"
+          },
+          "citation": "irena irena / Pl@ntNet, cc-by-sa"
+        }
+      ],
+      "gbif": {
+        "id": "2888443"
+      },
+      "powo": {
+        "id": "306058-2"
+      }
+    },
+    {
+      "score": 0.13051,
+      "species": {
+        "scientificNameWithoutAuthor": "Papaver dubium",
+        "scientificNameAuthorship": "L.",
+        "genus": {
+          "scientificNameWithoutAuthor": "Papaver",
+          "scientificNameAuthorship": "",
+          "scientificName": "Papaver"
+        },
+        "family": {
+          "scientificNameWithoutAuthor": "Papaveraceae",
+          "scientificNameAuthorship": "",
+          "scientificName": "Papaveraceae"
+        },
+        "commonNames": [
+          "Long Smooth-headed Poppy",
+          "Long-head poppy",
+          "Blindeyes"
+        ],
+        "scientificName": "Papaver dubium L."
+      },
+      "images": [
+        {
+          "organ": "flower",
+          "author": "Soufiane carde",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1650010914967,
+            "string": "April 15, 2022"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/412592879f15f634415fcfda5f3022799989b97c",
+            "m": "https://bs.plantnet.org/image/m/412592879f15f634415fcfda5f3022799989b97c",
+            "s": "https://bs.plantnet.org/image/s/412592879f15f634415fcfda5f3022799989b97c"
+          },
+          "citation": "Soufiane carde / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "Bec Adeline",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1652363314693,
+            "string": "May 12, 2022"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/1221e8e22f8c39b88ad634f6be6a3540c5222f04",
+            "m": "https://bs.plantnet.org/image/m/1221e8e22f8c39b88ad634f6be6a3540c5222f04",
+            "s": "https://bs.plantnet.org/image/s/1221e8e22f8c39b88ad634f6be6a3540c5222f04"
+          },
+          "citation": "Bec Adeline / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "Wilfried Bretschneider",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1653029718606,
+            "string": "May 20, 2022"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/e56ae02999325985ea7d0c529951e0a969ba124c",
+            "m": "https://bs.plantnet.org/image/m/e56ae02999325985ea7d0c529951e0a969ba124c",
+            "s": "https://bs.plantnet.org/image/s/e56ae02999325985ea7d0c529951e0a969ba124c"
+          },
+          "citation": "Wilfried Bretschneider / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "Oceanne Himmighofen",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1656458088660,
+            "string": "June 28, 2022"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/68ea65db5b6658b2a0ab83dd1dbcfc8a9e9096cc",
+            "m": "https://bs.plantnet.org/image/m/68ea65db5b6658b2a0ab83dd1dbcfc8a9e9096cc",
+            "s": "https://bs.plantnet.org/image/s/68ea65db5b6658b2a0ab83dd1dbcfc8a9e9096cc"
+          },
+          "citation": "Oceanne Himmighofen / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "Sylvain Jaguelin",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1654934581024,
+            "string": "June 11, 2022"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/9ddcd9b6729aa99574d64d9deddafe5dbfd6416b",
+            "m": "https://bs.plantnet.org/image/m/9ddcd9b6729aa99574d64d9deddafe5dbfd6416b",
+            "s": "https://bs.plantnet.org/image/s/9ddcd9b6729aa99574d64d9deddafe5dbfd6416b"
+          },
+          "citation": "Sylvain Jaguelin / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "ingoli Kilian",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1590916951210,
+            "string": "May 31, 2020"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/a8d156feca5304eeb883e40ca3fead00b78fda45",
+            "m": "https://bs.plantnet.org/image/m/a8d156feca5304eeb883e40ca3fead00b78fda45",
+            "s": "https://bs.plantnet.org/image/s/a8d156feca5304eeb883e40ca3fead00b78fda45"
+          },
+          "citation": "ingoli Kilian / Pl@ntNet, cc-by-sa"
+        }
+      ],
+      "gbif": {
+        "id": "2888464"
+      },
+      "powo": {
+        "id": "673488-1"
+      }
+    },
+    {
+      "score": 0.11863,
+      "species": {
+        "scientificNameWithoutAuthor": "Papaver argemone",
+        "scientificNameAuthorship": "L.",
+        "genus": {
+          "scientificNameWithoutAuthor": "Papaver",
+          "scientificNameAuthorship": "",
+          "scientificName": "Papaver"
+        },
+        "family": {
+          "scientificNameWithoutAuthor": "Papaveraceae",
+          "scientificNameAuthorship": "",
+          "scientificName": "Papaveraceae"
+        },
+        "commonNames": [
+          "Pale poppy",
+          "Prickly poppy",
+          "Long pricklyhead poppy"
+        ],
+        "scientificName": "Papaver argemone L."
+      },
+      "images": [
+        {
+          "organ": "flower",
+          "author": "Viviani Lorenzo",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1638463386964,
+            "string": "December 2, 2021"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/3eca6e428bf48b4bc021a3b16abbc8d16b68aeb1",
+            "m": "https://bs.plantnet.org/image/m/3eca6e428bf48b4bc021a3b16abbc8d16b68aeb1",
+            "s": "https://bs.plantnet.org/image/s/3eca6e428bf48b4bc021a3b16abbc8d16b68aeb1"
+          },
+          "citation": "Viviani Lorenzo / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "paolo63",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1620567295235,
+            "string": "May 9, 2021"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/dcd65f77777099255beca6992375c38408dac634",
+            "m": "https://bs.plantnet.org/image/m/dcd65f77777099255beca6992375c38408dac634",
+            "s": "https://bs.plantnet.org/image/s/dcd65f77777099255beca6992375c38408dac634"
+          },
+          "citation": "paolo63 / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "Gaetan Fouilhoux",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1559830667494,
+            "string": "June 6, 2019"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/4f047e13be34e7cda1bcccda0c8f6af1c2a74565",
+            "m": "https://bs.plantnet.org/image/m/4f047e13be34e7cda1bcccda0c8f6af1c2a74565",
+            "s": "https://bs.plantnet.org/image/s/4f047e13be34e7cda1bcccda0c8f6af1c2a74565"
+          },
+          "citation": "Gaetan Fouilhoux / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "Tatiana Chiara",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1583887819220,
+            "string": "March 11, 2020"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/0e219d00ea469b7a2042888ae4f23bf03686c34b",
+            "m": "https://bs.plantnet.org/image/m/0e219d00ea469b7a2042888ae4f23bf03686c34b",
+            "s": "https://bs.plantnet.org/image/s/0e219d00ea469b7a2042888ae4f23bf03686c34b"
+          },
+          "citation": "Tatiana Chiara / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "Iturralde Garrido",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1653469789574,
+            "string": "May 25, 2022"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/12873ebacb9018336937678bd8cbfccf0c05d306",
+            "m": "https://bs.plantnet.org/image/m/12873ebacb9018336937678bd8cbfccf0c05d306",
+            "s": "https://bs.plantnet.org/image/s/12873ebacb9018336937678bd8cbfccf0c05d306"
+          },
+          "citation": "Iturralde Garrido / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "Sans Attaches",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1653213717760,
+            "string": "May 22, 2022"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/0e2c146085a08eb0dc90f1386ebefa6aa371401b",
+            "m": "https://bs.plantnet.org/image/m/0e2c146085a08eb0dc90f1386ebefa6aa371401b",
+            "s": "https://bs.plantnet.org/image/s/0e2c146085a08eb0dc90f1386ebefa6aa371401b"
+          },
+          "citation": "Sans Attaches / Pl@ntNet, cc-by-sa"
+        }
+      ],
+      "gbif": {
+        "id": "2888445"
+      }
+    },
+    {
+      "score": 0.06111,
+      "species": {
+        "scientificNameWithoutAuthor": "Papaver apulum",
+        "scientificNameAuthorship": "Ten.",
+        "genus": {
+          "scientificNameWithoutAuthor": "Papaver",
+          "scientificNameAuthorship": "",
+          "scientificName": "Papaver"
+        },
+        "family": {
+          "scientificNameWithoutAuthor": "Papaveraceae",
+          "scientificNameAuthorship": "",
+          "scientificName": "Papaveraceae"
+        },
+        "commonNames": [
+          "Peacock Poppy"
+        ],
+        "scientificName": "Papaver apulum Ten."
+      },
+      "images": [
+        {
+          "organ": "flower",
+          "author": "dimitris log",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1651170550656,
+            "string": "April 28, 2022"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/829b220f42dbff1a61c04073a4baabe176f1cd78",
+            "m": "https://bs.plantnet.org/image/m/829b220f42dbff1a61c04073a4baabe176f1cd78",
+            "s": "https://bs.plantnet.org/image/s/829b220f42dbff1a61c04073a4baabe176f1cd78"
+          },
+          "citation": "dimitris log / Pl@ntNet, cc-by-sa"
+        }
+      ],
+      "gbif": {
+        "id": "3603047"
+      },
+      "powo": {
+        "id": "673403-1"
+      }
+    },
+    {
+      "score": 0.02928,
+      "species": {
+        "scientificNameWithoutAuthor": "Papaver orientale",
+        "scientificNameAuthorship": "L.",
+        "genus": {
+          "scientificNameWithoutAuthor": "Papaver",
+          "scientificNameAuthorship": "",
+          "scientificName": "Papaver"
+        },
+        "family": {
+          "scientificNameWithoutAuthor": "Papaveraceae",
+          "scientificNameAuthorship": "",
+          "scientificName": "Papaveraceae"
+        },
+        "commonNames": [
+          "Oriental poppy",
+          "Poppy",
+          "Great scarlet poppy"
+        ],
+        "scientificName": "Papaver orientale L."
+      },
+      "images": [
+        {
+          "organ": "flower",
+          "author": "Lindemann Peter",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1590511844275,
+            "string": "May 26, 2020"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/e03002d43b14e5a9d4229835f3b46efe82512ceb",
+            "m": "https://bs.plantnet.org/image/m/e03002d43b14e5a9d4229835f3b46efe82512ceb",
+            "s": "https://bs.plantnet.org/image/s/e03002d43b14e5a9d4229835f3b46efe82512ceb"
+          },
+          "citation": "Lindemann Peter / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "imogen rose",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1624732365863,
+            "string": "June 26, 2021"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/a62fecc689c8e413209fccaca7fb4df1626b6abc",
+            "m": "https://bs.plantnet.org/image/m/a62fecc689c8e413209fccaca7fb4df1626b6abc",
+            "s": "https://bs.plantnet.org/image/s/a62fecc689c8e413209fccaca7fb4df1626b6abc"
+          },
+          "citation": "imogen rose / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "Salomon NOHRA",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1594614435174,
+            "string": "July 13, 2020"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/f91325a31bfe1b1a52553991b9ee5d15610f26fc",
+            "m": "https://bs.plantnet.org/image/m/f91325a31bfe1b1a52553991b9ee5d15610f26fc",
+            "s": "https://bs.plantnet.org/image/s/f91325a31bfe1b1a52553991b9ee5d15610f26fc"
+          },
+          "citation": "Salomon NOHRA / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "Núñez- JJesús",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1558289075027,
+            "string": "May 19, 2019"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/ff0ec740c565b9eb68eeed6bc090f4199a0668d4",
+            "m": "https://bs.plantnet.org/image/m/ff0ec740c565b9eb68eeed6bc090f4199a0668d4",
+            "s": "https://bs.plantnet.org/image/s/ff0ec740c565b9eb68eeed6bc090f4199a0668d4"
+          },
+          "citation": "Núñez- JJesús / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "Greg P",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1654794141514,
+            "string": "June 9, 2022"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/b0429c9baf1900e639f009730ba18f2e1254bd25",
+            "m": "https://bs.plantnet.org/image/m/b0429c9baf1900e639f009730ba18f2e1254bd25",
+            "s": "https://bs.plantnet.org/image/s/b0429c9baf1900e639f009730ba18f2e1254bd25"
+          },
+          "citation": "Greg P / Pl@ntNet, cc-by-sa"
+        },
+        {
+          "organ": "flower",
+          "author": "leng red",
+          "license": "cc-by-sa",
+          "date": {
+            "timestamp": 1592242077202,
+            "string": "June 15, 2020"
+          },
+          "url": {
+            "o": "https://bs.plantnet.org/image/o/535f81cfd710c8ff756cc422070f2a96da35b509",
+            "m": "https://bs.plantnet.org/image/m/535f81cfd710c8ff756cc422070f2a96da35b509",
+            "s": "https://bs.plantnet.org/image/s/535f81cfd710c8ff756cc422070f2a96da35b509"
+          },
+          "citation": "leng red / Pl@ntNet, cc-by-sa"
+        }
+      ],
+      "gbif": {
+        "id": "2888437"
+      },
+      "powo": {
+        "id": "673641-1"
+      }
+    }
+  ],
+  "version": "2022-10-24 (7.1)",
+  "remainingIdentificationRequests": 499
+}
