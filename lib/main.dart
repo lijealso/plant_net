@@ -18,9 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Identificador de plantas',
-      theme: ThemeData(
-        primarySwatch: Colors.green,
-      ),
+      theme: ThemeData(primarySwatch: Colors.green),
       home: const PlantIdentifier(),
     );
   }
@@ -40,7 +38,13 @@ class _PlantIdentifierState extends State<PlantIdentifier> {
   bool _loading = false;
 
   final ImagePicker _picker = ImagePicker();
-  final List<String> _organOptions = ['auto', 'leaf', 'flower', 'fruit', 'bark'];
+  final List<String> _organOptions = [
+    'auto',
+    'leaf',
+    'flower',
+    'fruit',
+    'bark',
+  ];
 
   Future<void> _pickImage() async {
     final XFile? image = await _picker.pickImage(source: ImageSource.gallery);
@@ -59,9 +63,12 @@ class _PlantIdentifierState extends State<PlantIdentifier> {
     });
 
     final uri = Uri.parse(
-        'https://my-api.plantnet.org/v2/identify/all?include-related-images=true&no-reject=false&nb-results=5&lang=pt&type=legacy&api-key=API-KEY');
+      'https://my-api.plantnet.org/v2/identify/all?include-related-images=true&no-reject=true&nb-results=20&lang=pt&api-key=2b10plbJZOxKGi928aEVLxYLle',
+    );
     final request = http.MultipartRequest('POST', uri);
-    request.files.add(await http.MultipartFile.fromPath('images', _image!.path));
+    request.files.add(
+      await http.MultipartFile.fromPath('images', _image!.path),
+    );
     request.fields['organs'] = _selectedOrgan;
 
     try {
@@ -70,6 +77,11 @@ class _PlantIdentifierState extends State<PlantIdentifier> {
 
       if (response.statusCode == 200) {
         final data = jsonDecode(responseBody);
+
+        // Debug: Print the number of results received
+        final results = data['results'] as List?;
+        print('PlantNet API returned ${results?.length ?? 0} results');
+
         Navigator.push(
           context,
           MaterialPageRoute(
@@ -92,21 +104,39 @@ class _PlantIdentifierState extends State<PlantIdentifier> {
     }
   }
 
+  Future<void> _testWithSampleData() async {
+    try {
+      // Read the local sample JSON file
+      final jsonString = await DefaultAssetBundle.of(
+        context,
+      ).loadString('assets/response_1751302164030.json');
+      final data = jsonDecode(jsonString);
+
+      final results = data['results'] as List?;
+      print('Sample data has ${results?.length ?? 0} results');
+
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => ResultsScreen(identificationData: data),
+        ),
+      );
+    } catch (e) {
+      setState(() {
+        _identificationResult = 'Error loading sample data: $e';
+      });
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Plant Identifier'),
-      ),
+      appBar: AppBar(title: const Text('Plant Identifier')),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            if (_image != null)
-              Image.file(
-                File(_image!.path),
-                height: 250,
-              ),
+            if (_image != null) Image.file(File(_image!.path), height: 250),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: _pickImage,
@@ -120,7 +150,9 @@ class _PlantIdentifierState extends State<PlantIdentifier> {
                   _selectedOrgan = newValue!;
                 });
               },
-              items: _organOptions.map<DropdownMenuItem<String>>((String value) {
+              items: _organOptions.map<DropdownMenuItem<String>>((
+                String value,
+              ) {
                 return DropdownMenuItem<String>(
                   value: value,
                   child: Text(value),
@@ -132,14 +164,16 @@ class _PlantIdentifierState extends State<PlantIdentifier> {
               onPressed: _identifyPlant,
               child: const Text('Identify Plant'),
             ),
+            const SizedBox(height: 10),
+            ElevatedButton(
+              onPressed: _testWithSampleData,
+              child: const Text('Test with Sample Data'),
+            ),
             const SizedBox(height: 20),
             if (_loading)
               const CircularProgressIndicator()
             else
-              Text(
-                _identificationResult,
-                style: const TextStyle(fontSize: 18),
-              ),
+              Text(_identificationResult, style: const TextStyle(fontSize: 18)),
           ],
         ),
       ),
